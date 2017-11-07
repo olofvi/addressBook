@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import 'ts-angular-jsonapi';
 
 
 import { AppComponent } from './app.component';
