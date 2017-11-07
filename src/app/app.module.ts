@@ -1,18 +1,19 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { HttpModule} from "@angular/http";
-
+import { JsonApiModule } from 'angular2-jsonapi';
 
 import { AppComponent } from './app.component';
+import { JsonApiModelComponent } from './json-api-model/json-api-model.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    JsonApiModelComponent
   ],
   imports: [
     BrowserModule,
-    HttpModule
+    JsonApiModule
   ],
   providers: [AppComponent],
   bootstrap: [AppComponent]
