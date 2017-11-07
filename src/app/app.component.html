@@ -1,2 +1,7 @@
-
-
+<div class="card">
+  <ng-container *ngFor="let contact of data.contacts">
+    <h2>{{contact.name}}</h2>
+    <h3>{{contact.email}}</h3>
+    <h4>{{contact.info}}</h4>
+  </ng-container>
+</div>
