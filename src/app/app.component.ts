@@ -35,7 +35,7 @@ let app = angular.module('addressBook', ['rsJsonapi']);
 
 app.config(['rsJsonapiConfig', (rsJsonapiConfig) => {
   angular.extend(rsJsonapiConfig, {
-    url: '//jsonapiplayground.reyesoft.com/v2/'
+    url:'//ca-address-book.herokuapp.com/api/contacts'
   });
 }]);
 
